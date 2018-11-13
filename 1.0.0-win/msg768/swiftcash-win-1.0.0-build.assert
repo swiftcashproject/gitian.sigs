@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    f2a786d22306b0d7525786b9cb685fddb1be04f2218e1f2650c8acab69fbeaae  src/swiftcash-1.0.0.tar.gz
-    c9a9e42eb6c82588df087b5488ce445b9dd198eabb7dec0b34210065702dacb9  swiftcash-1.0.0-win-unsigned.tar.gz
-    ca13347deef5eaf6c184e71c96313a1f06a51e9a10ec10d56471ff6370c0029f  swiftcash-1.0.0-win32-debug.zip
-    548218cf265d8c5ea3f597db9c9755532cdc074219f194a56ec098fce1fbdcc0  swiftcash-1.0.0-win32-setup-unsigned.exe
-    d4eb5cadfdf2bc4cdd81fcc2e43625448a1c02253b0975d56bb368abb65e4341  swiftcash-1.0.0-win32.zip
-    8f9addceaab5037b1637cf3c4192e68f0c2938273407fcfd4cbfc30a8ae3d0d3  swiftcash-1.0.0-win64-debug.zip
-    4384b22cb6b763bffc7f88288faed4487433ff8506dceb1ada242ed52e3303bb  swiftcash-1.0.0-win64-setup-unsigned.exe
-    1dba7f9d0e741e7813937f7fd01446a0306d815db3596b5852318093d777ce90  swiftcash-1.0.0-win64.zip
+    89da0c3e45f6db7482f538b88907e0cfac07fe151bc677bf6b208c5fc35c9f30  src/swiftcash-1.0.0.tar.gz
+    7e6baf93d1ee20d793b951ff54551561237f98d811264ea12f01a747521fcfd4  swiftcash-1.0.0-win-unsigned.tar.gz
+    ae89cf7c0ad6ff45640103017dbd6ffdc5c9863ef868c83f9b0c93517b2a04fa  swiftcash-1.0.0-win32-debug.zip
+    dfb22422dfdb26456bc199679e166d4e02f01ae318d2e9e43b5753a206a5b512  swiftcash-1.0.0-win32-setup-unsigned.exe
+    43b45d05aa5a64657d31386965ac9a7ddf5e199d23df79bb1db3319cd477bb72  swiftcash-1.0.0-win32.zip
+    3069b3bc5bb8f3814a1a5642abec2b60e153f875437c569b2bc42813d91bef21  swiftcash-1.0.0-win64-debug.zip
+    07dca0e66abb5c167e70a70ec4ba1aca7c0b351aee63ee3f4e6760906f74144e  swiftcash-1.0.0-win64-setup-unsigned.exe
+    439e30dd783ce58fdb3e8dea6063c746590861d2a4b41c39ab459b55872232fc  swiftcash-1.0.0-win64.zip
 - in_manifest: |-
     4fc7123a409fb08879ad01f9e4959afcd38cb0ec12fe63fb8226aa571120e318  swiftcash-win-1.0.0-desc.yml
-    git:74dbb841a4b4e0f15f2e9d856666ba257899a0ee swiftcash
+    git:b5dcc1cb5bfac76dd2050d45d1085a5545caa56c swiftcash
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -40,7 +40,7 @@
       4292afd0db54c39a836d4ffe5de900b325a36cbf685eced796aa14451318b05e  cpp-4.8_4.8.4-2ubuntu1~14.04.4_amd64.deb
       60a508d9e32161fbb5a6f8f31a7f06044e12f74061c85b1795b79d35550ec8c4  crda_1.1.2-1ubuntu2_amd64.deb
       40fb20e8588676d056705e7888d61ad32f00ad8e0fad9ce20485044b68afe249  cron_3.0pl1-124ubuntu2_amd64.deb
-      75a08ffab2ca40bc58adacaf6a363111b097c51b1dd96179873fee5f8b8a413c  curl_7.35.0-1ubuntu2.17_amd64.deb
+      03c9221ea2157971b0879645623d139046c025de9cb5df9a57d9d8d275775fb0  curl_7.35.0-1ubuntu2.19_amd64.deb
       5befdfa1b3adc0c41e43d4fa1b3c960efe54f170d434c85d94012611024c6069  dash_0.5.7-4ubuntu1_amd64.deb
       85670d1a5b314c12c2f7c60e7fb075eb0e47fa1643a5a9a92cb900927a9f99a7  debconf_1.5.51ubuntu2_all.deb
       4abe6a0ae30ef2f6daa8c6053f64472cd4f82d29eb5c293ee7887a0a4a234b6e  debconf-i18n_1.5.51ubuntu2_all.deb
@@ -67,7 +67,7 @@
       0e9628c4115ab01da13888e0dbe81672c4e4ba43a7d61b622581a3e48a8e1763  gcc-mingw-w64-base_4.8.2-10ubuntu2+12_amd64.deb
       4915c96e7fad83ed925899ef14d8876b8018f7b4f47c4f5da16b8ae9d6997af1  gcc-mingw-w64-i686_4.8.2-10ubuntu2+12_amd64.deb
       4ea3e05ff8a5b4e1b82a3153bf6a8f9c44d720353f0f065c9a08664b7ea43c8e  gcc-mingw-w64-x86-64_4.8.2-10ubuntu2+12_amd64.deb
-      7b13d05bb8a323a50bbb9b8c93641b0374c3db27aa94c035c7a9a8ced013b8fa  gettext-base_0.18.3.1-1ubuntu3_amd64.deb
+      a733da22cc445ffc0df7134b2799989a46f830b86bd45a601895bfd985bb60af  gettext-base_0.18.3.1-1ubuntu3.1_amd64.deb
       f0d0a999d99de6b94d257ca7223acfe1665f4a239fa7f9e77d33fe20b7de6f68  git_1%3a1.9.1-1ubuntu0.9_amd64.deb
       f2d1d6d14a3830682ca49eacba2e7f7f196b1220d489ab24e4e90ed758abb3fc  git-core_1%3a1.9.1-1ubuntu0.9_all.deb
       a93ade54b02db4c2c2b68c68b8c47fb4de421065edcf0254c4d27b38e963a08c  git-man_1%3a1.9.1-1ubuntu0.9_all.deb
@@ -117,7 +117,7 @@
       6bda339c1f27f1157ec900fc32ceaeb5d487b1b62cc81eaf55c65d9ee6a10fe6  libarchive-extract-perl_0.70-1_all.deb
       5f01abcebeafd4c78c4d952a7dce894a6858eb6d3ac6eacd4d128b9f1eed025b  libasan0_4.8.4-2ubuntu1~14.04.4_amd64.deb
       d80c83625d89010535b4779f13d565c9ea95e9e22d870b3bdf1053421dc707d9  libasn1-8-heimdal_1.6~git20131207+dfsg-1ubuntu1.2_amd64.deb
-      fdaf26bea5646d80fe8641706e6b15ff4a80a82b6bf8088a862228798f7db641  libasprintf0c2_0.18.3.1-1ubuntu3_amd64.deb
+      a561406ab8014363fa5dee1cf28e477f4f0870b4a8e33916faea2b28886adedf  libasprintf0c2_0.18.3.1-1ubuntu3.1_amd64.deb
       466e37a8cc9365d506eb74d4b613cd8d87e2dd825dd48f6a1929eee070c9d7e0  libatomic1_4.8.4-2ubuntu1~14.04.4_amd64.deb
       f405e4cd78bf09a4f3340fba7f22cce806cd27ffbb56234e11813c6e63a5bc18  libattr1_1%3a2.4.47-1ubuntu1_amd64.deb
       92a40b408f14e95191ce6416ef9e1828b07b51bd54ee99a9e1405a46d97dd543  libaudit1_1%3a2.3.2-2ubuntu1_amd64.deb
@@ -135,8 +135,8 @@
       77475621670d256826fccaf2a4db86564e5ee5fafc43bd8bf6815079ffcdcc83  libck-connector0_0.4.5-3.1ubuntu2_amd64.deb
       c42936ac171d9cf5b99e5380688ee71cb153f223539310a451117d747dc794b9  libcloog-isl4_0.18.2-1_amd64.deb
       0bfc60d1afb59c7b70dc27826bed460487303fda57749e165e9aa61d5d842459  libcomerr2_1.42.9-3ubuntu1.3_amd64.deb
-      b3b47d1ea5db4be05c163743e0a0d7c255638191079255ce9c9a1221bedcf2e7  libcurl3_7.35.0-1ubuntu2.17_amd64.deb
-      ace42aea20ea2fb7a096c6a9a39f3dd3a9b06d4917b2791dfbefae356076c7a6  libcurl3-gnutls_7.35.0-1ubuntu2.17_amd64.deb
+      c6570ce16bd8a19b4e4722798c8aad89513926dacb5be7a3d77640a80ed818ec  libcurl3_7.35.0-1ubuntu2.19_amd64.deb
+      cc0b523151e67d8d656b61c0d9d824908672d2f5a3b582f38b5be3c504ae45be  libcurl3-gnutls_7.35.0-1ubuntu2.19_amd64.deb
       5445bf69148a09a0553d563214d6674616ae99436d424a36a9603b077d7b0090  libdb5.3_5.3.28-3ubuntu3.1_amd64.deb
       27a4c5c6f9497a4a9bf4990d82a0e0628b4feca5fd8fe70d2dd5777783b3340a  libdbus-1-3_1.6.18-0ubuntu4.5_amd64.deb
       b863f6e00dd950f6073cf7719e1532f279bd72cba1b12a7a0d1729fc03cf15d2  libdebconfclient0_0.187ubuntu1_amd64.deb
@@ -302,9 +302,9 @@
       19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
       baeed7c0c9efbb59af736dcd342befd8f51c343d430db50e71d13740065c0ad1  nsis-common_2.46-7_all.deb
       3b6447136e3c4925a33cf97e58b8b079c718d8afb4d1cd8f27e76f8bfa5d35e0  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.13_amd64.deb
-      9654470eecc1b748ae11e05e2ed3cdd9e9ec21932692003dfdf55ea9ab70245d  openssh-client_1%3a6.6p1-2ubuntu2.10_amd64.deb
-      e311328505fb504117660f7a95a65114d67bec8620673fb5a432a9399ad4b1d8  openssh-server_1%3a6.6p1-2ubuntu2.10_amd64.deb
-      fd8ad93550918f6a04789a3c915009abf459cccaf985951eb200c9f930725f67  openssh-sftp-server_1%3a6.6p1-2ubuntu2.10_amd64.deb
+      1277c9b8a504f6ee57788d5633223b55e95c52519ddbea5bfac3b4ce1154c141  openssh-client_1%3a6.6p1-2ubuntu2.11_amd64.deb
+      1da01a3c2f8709107d03ab9c65eaf909408109bfb3639352a88a906f2e6b062c  openssh-server_1%3a6.6p1-2ubuntu2.11_amd64.deb
+      c432e6ac2517b4cafe672a8d019e6f1d84938ce5b2913057d7902802b5b03667  openssh-sftp-server_1%3a6.6p1-2ubuntu2.11_amd64.deb
       ef469d9323f0634fb9211c0c007b699d0ca53619f1f23ade2796f2e3acaaee3d  openssl_1.0.1f-1ubuntu2.26_amd64.deb
       d10f0dd08fa75f299d9869384b91100bc4b23e0ffa3e4b5ea387c921d79bb556  os-prober_1.63ubuntu1.1_amd64.deb
       5e62317b9e984874c9ba8f8f7409d91957a3f88006f2f38c17560099f349e230  passwd_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
@@ -342,8 +342,9 @@
       944a63e967614a4a6075850bb066c942d52bcc365baba8e1c5fb3916f8e33d56  tar_1.27.1-1ubuntu0.1_amd64.deb
       da0fb98bf7142fb9b87c454f067aaf7f51c5991776223820022b496b00121901  tcpd_7.6.q-25_amd64.deb
       25642c4e4ee207e3fb071268e944d2a34b850a789a0d960e19934fea3134b1e0  tzdata_2018g-0ubuntu0.14.04_all.deb
+      453cb724ce2cd5e57685d6161add4a9592da57a958ff01847f5731607945251f  ubuntu-advantage-tools_10ubuntu0.14.04.2_all.deb
       315a58b14eec1e9252b2a2e294f2a4be1ccd043adb58bf5b7f56a538843ed504  ubuntu-keyring_2012.05.19_all.deb
-      9a65bc091e3a18d604ccb93bd6347f02b7b908feb00f957b0085afcaa91f5453  ubuntu-minimal_1.325_amd64.deb
+      cc8a3ca98c3b424bfc420b4d83b5ed7e199353cfe67dfe149b9564fa33950e3d  ubuntu-minimal_1.325.1_amd64.deb
       6a540d4b23468eaca26a285940c16f19454af7af85de3a903f3118775a95a577  ucf_3.0027+nmu1_all.deb
       1208323766469328f09d10a6d151d0e9b996036efa02054735ef537cbaa61e01  udev_204-5ubuntu20.28_amd64.deb
       8e279021b38f3d5ac06d47437334d540b2a3c9f1abb030fdcdfcf0b01dac4c91  upstart_1.12.1-0ubuntu4.2_amd64.deb
